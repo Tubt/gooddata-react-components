@@ -2,8 +2,8 @@
 
 const demoProject = {
     "https://secure.gooddata.com": "k26dtejorcqlqf11crn6imbeevp2q4kg",
-    "https://staging3.intgdc.com": "kytra720hke4d84e8ozohoz7uycn53mi",
-    "https://staging2.intgdc.com": "ws7pxsamkx8o0t1s7kfvkj5o41uwcmqg",
+    "https://staging3.intgdc.com": "ht3owbpk6h0yfjtkcsgva3osu3z7paol",
+    "https://staging2.intgdc.com": "exveshu0intwbr4nk6ao8ft6vesjiqus",
     "https://staging.intgdc.com": "na1q8a0q4efb7cajbgre9mmm776dr1yv",
     "https://developer.na.gooddata.com": "xms7ga4tf3g3nzucd8380o2bev8oeknp",
 };
@@ -36,14 +36,14 @@ export const scatterVisualizationIdentifier = "ab4aHg6lej5e";
 export const scatterVisualizationUri = `/gdc/md/${demoProjectId}/obj/9277`;
 export const bubbleVisualizationIdentifier = "abNaJG2Aed2M";
 export const bubbleVisualizationUri = `/gdc/md/${demoProjectId}/obj/9280`;
-export const pieVisualizationIdentifier = "aaraOcrmdjZd";
-export const pieVisualizationUri = `/gdc/md/${demoProjectId}/obj/9281`;
-export const donutVisualizationIdentifier = "absaJEALgcdO";
-export const donutVisualizationUri = `/gdc/md/${demoProjectId}/obj/9282`;
-export const treemapVisualizationIdentifier = "aajaObFleXdD";
-export const treemapVisualizationUri = `/gdc/md/${demoProjectId}/obj/9283`;
-export const heatmapVisualizationIdentifier = "abkaJfMYiiCU";
-export const heatmapVisualizationUri = `/gdc/md/${demoProjectId}/obj/9284`;
+export const pieVisualizationIdentifier = "aachKY94eoiK";
+export const pieVisualizationUri = `/gdc/md/${demoProjectId}/obj/9128`;
+export const donutVisualizationIdentifier = "aaea1tjtgTFS";
+export const donutVisualizationUri = `/gdc/md/${demoProjectId}/obj/9127`;
+export const treemapVisualizationIdentifier = "aabcygjgaYuI";
+export const treemapVisualizationUri = `/gdc/md/${demoProjectId}/obj/9123`;
+export const heatmapVisualizationIdentifier = "aaggG8eSdgS7";
+export const heatmapVisualizationUri = `/gdc/md/${demoProjectId}/obj/9125`;
 export const columnsVisualizationIdentifier = "aabOspdLbbvs";
 export const columnVisualizationIdentifier = "acFJltTsifSQ";
 export const columnVisualizationUri = `/gdc/md/${demoProjectId}/obj/6862`;
@@ -87,3 +87,7 @@ export const totalSalesLocalIdentifier = "c11c27a0b0314a83bfe5b64ab9de7b89";
 export const totalCostsLocalIdentifier = "aaQHncjzfrtR";
 export const numberOfRestaurantsIdentifier = "aawAq8YqhM3o";
 export const averageRestaurantDailyCostsIdentifier = "aaQJzQzoeKwZ";
+export const avgCheckSizeIdentifier="agGujhRmcjQD";
+export const grossProfitIdentifier="aa5JBkFDa7sJ";
+export const ownedSalesIdentifier="aaMF7AZGbALB";
+export const locationResortAttributeValue=`/gdc/md/${demoProjectId}/obj/2206/elements?id=6340103`;
