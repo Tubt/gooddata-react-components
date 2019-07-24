@@ -29,6 +29,7 @@ import ArithmeticMeasure from "./ArithmeticMeasure";
 import Export from "./Export";
 import VisualizationByUri from "./VisualizationByUri";
 import VisualizationByIdentifier from "./VisualizationByIdentifier";
+import TestVersion7_1_0 from "./TestVersion7_1_0";
 
 export const advancedUseCasesRoutes = [
     { path: "/advanced/global-filters", title: "Global Filters", Component: GlobalFilters },
@@ -120,6 +121,7 @@ export const sideNavigationRoutes = [
         title: "Next",
         Component: NextRoutes,
     },
+    { path: "/testversion710", title: "Tú test version 7.1.0", Component: TestVersion7_1_0, exact: true },
 ];
 
 export const hiddenPaths = [
