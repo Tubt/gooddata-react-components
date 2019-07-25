@@ -25,7 +25,8 @@ export class BarChartExportExample extends Component {
 
         const locationResort = Model.attribute(locationResortIdentifier);
 
-        const filters = [Model.absoluteDateFilter(dateDataSetUri, "2017-01-01", "2017-12-31")];
+        //const filters = [Model.absoluteDateFilter(dateDataSetUri, "2017-01-01", "2017-12-31")];
+          const filters=[Model.positiveAttributeFilter(locationResortIdentifier,["Hayward","San Jose","Dallas"],true),];
 
         return (
             <ExampleWithExport>
