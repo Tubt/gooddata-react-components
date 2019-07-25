@@ -55,16 +55,15 @@ export class LocalAttributeFilter extends Component {
         ];
 
         return (
-            <div style={{ height: 700 }} >
-                <h1>ads</h1> 
+            <div style={{ height: 700 }} >                
                 <ExampleWithExport>
                     {onExportReady => (
-                        <div style={{ height: 600 }} className="s-pivot-table">
+                        <div style={{ height: 500 }} className="s-pivot-table">
                             <PivotTable
                                 projectId={projectId}
                                 measures={measures}                
                                 rows={attributes}
-                                filters={positiveAttributeFilters}    
+                                filters={positiveAttributeFilters2}    
                                 onExportReady={onExportReady}                                    
                                 onLoadingChanged={this.onLoadingChanged}
                                 onError={this.onError}
