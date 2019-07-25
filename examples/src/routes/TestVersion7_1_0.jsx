@@ -39,10 +39,10 @@ export const TestVersion7_1_0 = () => (
         <h2 id="treemap">Treemap has some measures</h2>
         <ExampleWithSource for={TreemapExample2} source={TreemapExample2SRC} />
 
-        <h2 id="heatmap">Heatmap has 1 measure, 1 attribute on Rows, 1 attribute on Columns</h2>
+        <h2 id="heatmap">Heatmap has 1 measure</h2>
         <ExampleWithSource for={HeatmapExample1} source={HeatmapExample1SRC} />
 
-        <h2 id="heatmap">Heatmap has some measures, 1 attribute on Rows, 1 attribute on Columns</h2>
+        <h2 id="heatmap">Heatmap has some measures</h2>
         <ExampleWithSource for={HeatmapExample2} source={HeatmapExample2SRC} />
 
         <h2 id="PivotTable">Check filter</h2>
