@@ -1208,6 +1208,39 @@
   resolved "https://registry.yarnpkg.com/@gooddata/numberjs/-/numberjs-3.2.2.tgz#4164b4d7d39385ed63cea7ad0ed53b4d7dbfd276"
   integrity sha512-KJpzlPmDNEjALb1gVN99mWNWN7ILIeAVn0SxT/cFUgtGxtXOHolZnXDsakUtdeJTg2O6u93CZqcOSwsQ981fUA==
 
+"@gooddata/react-components@7.1.0-alpha-bertold8-ine-one-3939-double-execution-2019-07-25T14-09-51-557Z":
+  version "7.1.0-alpha-bertold8-ine-one-3939-double-execution-2019-07-25T14-09-51-557Z"
+  resolved "https://registry.yarnpkg.com/@gooddata/react-components/-/react-components-7.1.0-alpha-bertold8-ine-one-3939-double-execution-2019-07-25T14-09-51-557Z.tgz#e0f4763c731348e2ce4926e792a1bad0c34845ba"
+  integrity sha512-5XJIpOW9y+6NbPgyOLkraWS1pHctPwCGkBSw6ZEtnxa2TXfHQ/S8bQFpFRqPXtlyU++LoFtDjdbJTJgM0A7M1A==
+  dependencies:
+    "@gooddata/gooddata-js" "^11.14.2"
+    "@gooddata/goodstrap" "^63.0.3"
+    "@gooddata/js-utils" "^3.4.0"
+    "@gooddata/numberjs" "^3.1.2"
+    "@gooddata/typings" "^2.13.2"
+    ag-grid-community "20.0.0"
+    ag-grid-react "20.0.0"
+    classnames "^2.2.6"
+    custom-event "^1.0.1"
+    fixed-data-table-2 "0.7.17"
+    highcharts "7.1.1"
+    highcharts-grouped-categories "^1.1.3"
+    hoist-non-react-statics "^3.3.0"
+    http-status-codes "^1.3.0"
+    immer "^1.3.1"
+    invariant "^2.2.2"
+    lodash "^4.17.11"
+    nodelist-foreach-polyfill "^1.2.0"
+    prop-types "^15.6.0"
+    react-async-script "^1.0.1"
+    react-dom-factories "^1.0.2"
+    react-intl "^2.4.0"
+    react-measure "^2.3.0"
+    react-transition-group "^2.2.1"
+    rxjs "^5.5.6"
+    stringify-object "^2.4.0"
+    uuid "^3.2.1"
+
 "@gooddata/test-storybook@3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@gooddata/test-storybook/-/test-storybook-3.1.1.tgz#7ec8f5390c3a7ca477d87b2d3b61e1e498e1768c"
@@ -14571,6 +14604,14 @@ string_decoder@^1.1.1:
 string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+stringify-object@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/stringify-object/-/stringify-object-2.4.0.tgz#c62d11023eb21fe2d9b087be039a26df3b22a09d"
+  integrity sha1-xi0RAj6yH+LZsIe+A5om3zsioJ0=
+  dependencies:
+    is-plain-obj "^1.0.0"
+    is-regexp "^1.0.0"
 
 stringify-object@^3.2.1, stringify-object@^3.3.0:
   version "3.3.0"
