@@ -1,4 +1,4 @@
-// (C) 2007-2019 GoodData Corporation
+// (C) 2007-2020 GoodData Corporation
 import React, { Component } from "react";
 import { LineChart, AttributeFilter, Model, ErrorComponent } from "@gooddata/react-components";
 import { VisualizationInput } from "@gooddata/typings";
@@ -109,6 +109,7 @@ export class AttributeFilterExample extends Component {
                     filter={filters[0]}
                     onApply={this.onApply}
                     onApplyWithFilterDefinition={this.onApplyWithFilterDefinition}
+                    fullscreenOnMobile={true}
                 />
                 <div style={{ height: 300 }} className="s-line-chart">
                     {error ? (
